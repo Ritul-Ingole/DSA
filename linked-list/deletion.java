@@ -1,9 +1,15 @@
 class Node{
   int data;
   Node next;
-  Node(int val){
-    data = val;
+
+  Node(int val1){
+    data = val1;
     next = null;
+  }
+
+  Node(int val1, Node next1){
+    data = val1;
+    next = next1;
   }
 }
 
